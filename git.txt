@@ -1,0 +1,27 @@
+git init				初始化
+git config -global user.name "名字"
+git config -global user.email "你的邮箱"
+ssh-keygen -t rsa -C "你的邮箱地址" 	生成公钥
+ssh ~/				查看公钥目录(id_rsa.pub)
+
+第一次
+git remote add origin "仓库下载地址"	添加远程仓库
+git push -u origin master 		将本地仓库推送到远程仓库
+
+git pull --rebase origin master		把远程库中的更新合并到本地库中
+git clone "仓库下载地址"		克隆到本地工作区
+
+git pull 				拉去远程仓库
+git add . 				添加文件到工作区
+git commit -m '提交更新日志' 		添加文件到本地仓库
+git push 				将本地仓库推送到远程仓库
+
+git branch 			查看所有分支 *为当前分支
+git checkout -b '分支名'		新建/切换分支，并切换至分支上 （不加-b只是新建/切换）
+git push origin '分支名'		将分支推送到远程仓库的分支上
+
+git merge '合并的其他分支名'		将当前分支和其他分支合并
+git branch -d '删除的分支名'		删除其他分支
+
+git log				查看所有版本号
+git reaset --hard 版本号		回退某个版本
