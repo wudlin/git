@@ -1,6 +1,7 @@
 <h1 align="center">git命令说明</h1>
 
 ## 目录
+
 - [初始化](#初始化)
 - [首次设置](#首次设置)
 - [常用设置](#常用设置)
@@ -8,8 +9,10 @@
 - [合并分支相关](#合并分支相关)
 - [其他命令](#其他命令)
 - [修饰符](#修饰符)
+- [对比 svn 流程整合](#对比svn流程整合)
 
 ## 初始化
+
 <a href="https://git-scm.com/downloads" target='_blank'>git 官方下载地址</a>
 
 <table>
@@ -38,7 +41,8 @@
 <br>
 
 ## 首次设置
->Note:新建文件夹 `git init` 后，目录下会生成 `.git` 隐藏文件相当于本地仓库作用
+
+> Note:新建文件夹 `git init` 后，目录下会生成 `.git` 隐藏文件相当于本地仓库作用
 
 <table>
 <tr>
@@ -65,7 +69,7 @@
 								
 ## 常用设置
 
->Note：以上是第一次需要的操作，下面的是正常操作
+> Note：以上是第一次需要的操作，下面的是正常操作
 
 <table>
 <tr>
@@ -116,13 +120,13 @@
 					
 ## 合并分支相关
 
->Demo1：将 `a分支` 合并到 `b分支` ，首先切换到 `a分支` ，将代码拉取并提交到 `a本地仓库` ，这里不进行 `git push` ，然后切换到 `b分支` 进行相同操作，然后执行 `git merge b` ，就能起到合并 `a分支` 作用
+> Demo1：将 `a分支` 合并到 `b分支` ，首先切换到 `a分支` ，将代码拉取并提交到 `a本地仓库` ，这里不进行 `git push` ，然后切换到 `b分支` 进行相同操作，然后执行 `git merge b` ，就能起到合并 `a分支` 作用
 
 这里是将两个本地仓库带代码进行合并
 
->Demo2：将 `a分支` 合并到 `b分支` ，首先切换到 `b分支` ，将代码拉取并提交到 `b本地仓库` ，这里不进行 `git push` ，然后执行 `git pull origin a` ，就能起到合并 `a分支` 作用
+> Demo2：将 `a分支` 合并到 `b分支` ，首先切换到 `b分支` ，将代码拉取并提交到 `b本地仓库` ，这里不进行 `git push` ，然后执行 `git pull origin a` ，就能起到合并 `a分支` 作用
 
-这里是将 `远程仓库a` 的内容直接拉取到 `b工作区` 然后 `commit` 后进行推送 
+这里是将 `远程仓库a` 的内容直接拉取到 `b工作区` 然后 `commit` 后进行推送
 
 <table>
 <tr>
@@ -140,6 +144,7 @@
 </table>
 
 ## 其他命令
+
 <table>
 <tr>
 <td>git log</td>
@@ -201,6 +206,7 @@
 </table>
 
 ## 修饰符
+
 <table>
 <tr>
 <td>--set-upstream-to 或 -u</td>
@@ -243,14 +249,16 @@
 </tr>
 </table>
 
->Note:关于 `commit` 提交规范，未整理完成
-[Build]
-[Docs]
-[Fix]
-[New]
-[Chore]
-[Upgrade]
-
-<a href="http://note.youdao.com/noteshare?id=e176d987566e724739ff48ed0b977e26" target="_blank">内容文本</a>
+## 对比 svn 流程整合
 
 <img src="https://github.com/wudlin/git/blob/master/git%E5%AF%B9%E6%AF%94svn.jpg?width=890">
+
+- Note:关于 `commit` 提交规范，未整理完成
+- [Build]
+- [docs]
+- [Fix]
+- [new]
+- [Chore]
+- [upgrade]
+
+<a href="http://note.youdao.com/noteshare?id=e176d987566e724739ff48ed0b977e26" target="_blank">内容文本</a>

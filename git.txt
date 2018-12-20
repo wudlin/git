@@ -1,5 +1,5 @@
 特性分支（合并）
-例1.将b分支合并到a分支
+例1.将b分支合并到a分支 
 git ckeckout b 
 git pull --rebase
 git commti -am 'b修改提交'
