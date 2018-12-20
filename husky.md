@@ -35,4 +35,4 @@ npm i --save-dev husky lint-staged
 - 如果有错误（没通过ESlint检查）则停止任务，等待下次commit，同时打印错误信息
 - 成功提交
 
-<img src="https://github.com/wudlin/git/blob/master/git_husky.png" alt="提交截图"/>
+<img src="https://github.com/wudlin/git/blob/master/img/git_husky.png" alt="提交截图"/>
