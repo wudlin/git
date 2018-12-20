@@ -251,7 +251,7 @@
 
 ## 对比 svn 流程整合
 
-<img src="https://github.com/wudlin/git/blob/master/git%E5%AF%B9%E6%AF%94svn.jpg?width=890">
+<img src="https://github.com/wudlin/git/blob/master/img/git%E5%AF%B9%E6%AF%94svn.jpg?width=890">
 
 - Note:关于 `commit` 提交规范，未整理完成
 - [Build]
