@@ -34,11 +34,6 @@ npm i --save-dev husky@1.2.0 lint-staged
 - write：默认prettier是直接标准输出到终端的，这个配置代表直接改写文件
 - single-quote：使用单引号
 
-## 关于 husky 版本问题
->Note:如果使用 1.3.0 会出现 `git push` 后无反应的情况，建议使用 `^1.2.0` 
-```js
-    "husky": "^1.2.0",
-```
 
 ## 实现过程
 - 待提交的代码
