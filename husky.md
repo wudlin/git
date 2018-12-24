@@ -4,8 +4,15 @@
 
 #### 安装：husky
 ```js
-npm i --save-dev husky lint-staged
+npm i --save-dev husky@1.2.0 lint-staged
 ```
+
+#### 关于 husky 版本问题
+>Note:如果使用 1.3.0 会出现 `git push` 后无反应的情况，建议使用 `^1.2.0` 
+```js
+    "husky": "^1.2.0",
+```
+
 
 修改 `package.json` 
 
