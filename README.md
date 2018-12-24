@@ -217,10 +217,6 @@
 <td>非直推式合并</td>
 </tr>
 <tr>
-<td>--force</td>
-<td>非直推式合并</td>
-</tr>
-<tr>
 <td>-b</td>
 <td>新建并且切换，在创建分支命令 checkout 里不加-b 表示切换</td>
 </tr>
