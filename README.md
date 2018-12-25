@@ -113,8 +113,8 @@
 <td>将分支推送到远程仓库的分支上</td>
 </tr>
 <tr>
-<td>git commit -am</td>
-<td>add与-m的简化</td>
+<td>git fetch</td>
+<td>拉取远程仓库分支跟新列表（git branch -r 没找到远程仓库的分支前提下）</td>
 </tr>
 </table>
 					
@@ -157,10 +157,6 @@
 <tr>
 <td>git reset --hard 版本号</td>
 <td>回退某个版本，版本号可以缩短为前 6 位</td>
-</tr>
-<tr>
-<td>git fetch</td>
-<td>拉取远程仓库分支跟新列表（git branch -r 没找到远程仓库的分支前提下）</td>
 </tr>
 <tr>
 <td>git branch --set-upstream-to=origin/分支名</td>
