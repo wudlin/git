@@ -147,6 +147,10 @@
 
 <table>
 <tr>
+<td>git config core.ignorecase false</td>
+<td>默认不区分大小写，因为 `window` 系统原因，设置完后为区分</td>
+</tr>
+<tr>
 <td>git log</td>
 <td>查看所有版本号</td>
 </tr>
