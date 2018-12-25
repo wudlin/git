@@ -151,7 +151,7 @@
 <td>查看所有版本号</td>
 </tr>
 <tr>
-<td>git reset --mixed 版本号</td>
+<td>git reset --hard 版本号</td>
 <td>回退某个版本，版本号可以缩短为前 6 位</td>
 </tr>
 <tr>
