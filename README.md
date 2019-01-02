@@ -55,7 +55,7 @@
 </tr>
 <tr>
 <td>git push -u origin master</td>
-<td>将本地仓库推送到远程仓库</td>
+<td>将本地仓库的主干推送到远程仓库上，如果远程仓库上有内容，则先执行 pull 拉取的操作</td>
 </tr>
 <tr>
 <td>git pull --rebase origin master</td>
