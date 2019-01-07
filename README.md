@@ -203,6 +203,10 @@
 <td>git checkout 哈希值 path/to/file </td>
 <td>单文件还原</td>
 </tr>
+<tr>
+<td>git rm --cached 文件名 -r</td>
+<td>删除暂存区上的文件， --cached 表示保留工作区的文件，不加会删除工作区文件</td>
+</tr>
 </table>
 
 ## 修饰符
