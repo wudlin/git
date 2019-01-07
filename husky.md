@@ -46,3 +46,12 @@ npm i --save-dev husky@1.2.0 lint-staged
 - 成功提交
 
 <img src="https://github.com/wudlin/git/blob/master/img/git_husky.png" alt="提交截图"/>
+
+## 跳过验证
+```
+$ git commit --no-verify -m 'test:测试跳过验证'
+[master 08f9e26] test:测试跳过验证
+ 1 file changed, 28 insertions(+), 32 deletions(-)
+ rewrite my-app/src/App.js (76%)
+```
+主要就不会通过 `husky` 钩子,而使用 `commmit` 正常提交
