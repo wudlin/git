@@ -171,7 +171,7 @@
 </tr>
 <tr>
 <td>git push --force origin 分支名</td>
-<td>非直推式，强制推送(替换远程仓库内容)</td>
+<td>非直推式，强制推送(替换远程仓库内容),这里不建议使用 -f 或者说 --force，会将新的历史覆盖到远程分支上</td>
 </tr>
 <tr>
 <td>git branch -vv</td>
@@ -217,8 +217,8 @@
 <td>设置跟踪信息</td>
 </tr>
 <tr>
-<td>--force</td>
-<td>非直推式合并</td>
+<td>-f 或 --force</td>
+<td>非直推式合并，会将新的历史覆盖到远程分支上，不建议使用</td>
 </tr>
 <tr>
 <td>-b</td>
