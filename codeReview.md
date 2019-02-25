@@ -49,6 +49,6 @@
 
 ## codeReview流程图
 
-<img src="./img/codeRequest流程图.jpg?width=890">
+<img src="./img/codeRequest.jpg?width=890">
 
 参考资料：https://blog.csdn.net/weixin_40400084/article/details/81450553
