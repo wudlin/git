@@ -3,7 +3,7 @@
 >note:介绍在 gitlab 上如何使用 codeReview
 
 ## 目录
-- [打设置保护分支](#设置保护分支)
+- [设置保护分支](#设置保护分支)
     - [打开gitlab中的项目](#打开gitlab中的项目)
     - [Protected Branches 进行设置](#Protected-Branches-进行设置)
 - [发起MergeRequest](#发起MergeRequest)
