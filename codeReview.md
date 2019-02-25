@@ -41,8 +41,11 @@
 
 
 ## 审查人员界面
+>note:这里如果无代码冲突 `Merge` 按钮为可点击，有冲突则至灰。
 
 <img src="./img/mr6.png?width=890">
+
+>note:不论通过还是关闭 `MergeRequest` 都将通知发起人
 
 ## codeReview流程图
 
