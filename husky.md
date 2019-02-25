@@ -1,5 +1,4 @@
 <h1 align="center">husky</h1>
-s
 
 ## 注册 git hook
 
