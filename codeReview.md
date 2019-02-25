@@ -9,7 +9,7 @@
 - [发起MergeRequest](#发起MergeRequest)
     - [进行merge request](#进行merge-request)
 - [审查人员界面](#审查人员界面)
-
+- [codeReview流程图](#codeReview流程图)
 
 ## 设置保护分支
 
@@ -43,5 +43,9 @@
 ## 审查人员界面
 
 <img src="./img/mr6.png?width=890">
+
+## codeReview流程图
+
+<img src="./img/codeRequest流程图.jpg?width=890">
 
 参考资料：https://blog.csdn.net/weixin_40400084/article/details/81450553
