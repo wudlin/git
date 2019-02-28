@@ -11,6 +11,7 @@
 - [其他命令](#其他命令)
 - [修饰符](#修饰符)
 - [对比 svn 流程整合](#对比-svn-流程整合)
+- [git回滚流程](#git回滚流程)
 #### 其他
 - [husky使用教程](./husky.md)
 - [codeReview](./codeReview.md)
@@ -255,7 +256,7 @@
 
 ## 对比 svn 流程整合
 
-<img src="https://github.com/wudlin/git/blob/master/img/git%E5%AF%B9%E6%AF%94svn.jpg?width=890">
+<img src="./img/git对比svn.jpg?width=890">
 
 - Note:关于 `commit` 提交规范，未整理完成
 - [Build]
@@ -266,3 +267,6 @@
 - [upgrade]
 
 <a href="http://note.youdao.com/noteshare?id=e176d987566e724739ff48ed0b977e26" target="_blank">内容文本</a>
+
+## git回滚流程
+<img src="./img/git回滚流程图.jpg?width=890">
