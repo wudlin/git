@@ -258,7 +258,7 @@
 
 <img src="./img/git对比svn.jpg?width=890">
 
-- Note:参考angular社区流行的 `commit` 提交规范，未整理完成
+>Note:参考angular社区流行的 `commit` 提交规范，未整理完成
 - [Build]
 - [docs]
 - [Fix]
