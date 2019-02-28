@@ -258,7 +258,7 @@
 
 <img src="./img/git对比svn.jpg?width=890">
 
-- Note:关于 `commit` 提交规范，未整理完成
+- Note:参考angular社区流行的 `commit` 提交规范，未整理完成
 - [Build]
 - [docs]
 - [Fix]
@@ -266,7 +266,6 @@
 - [Chore]
 - [upgrade]
 
-<a href="http://note.youdao.com/noteshare?id=e176d987566e724739ff48ed0b977e26" target="_blank">内容文本</a>
 
 ## git回滚流程
 <img src="./img/git回滚流程图.jpg?width=890">
