@@ -156,6 +156,14 @@
 
 <table>
 <tr>
+<td>git tag -a v0.1.2 -m "0.1.2版本"</td>
+<td>本地仓库添加tag标签，-m及引号未貌似信息，可不加</td>
+</tr>
+<tr>
+<td>git push --tags</td>
+<td>将本地仓库tag标签推送到远程仓库</td>
+</tr>
+<tr>
 <td>git log</td>
 <td>查看所有版本号</td>
 </tr>
