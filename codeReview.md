@@ -1,6 +1,6 @@
 <h1 align="center">codeReview</h1>
 
->note:介绍在 gitlab 上如何使用 codeReview
+>note:介绍在 gitlab 上如何使用 codeReview 即 MergeRequest ,codeReview 在 gitlab 及 github 中有不同的名称,gitlab 为 MergeRequest , github 为 PullRequest
 
 ## 目录
 - [设置保护分支](#设置保护分支)
