@@ -270,6 +270,7 @@
 ## 提交规范说明
 
 >Note:参考angular社区流行的 `commit` 提交规范，未整理完成
+
 type: commit 的类型
 feat: 新特性
 fix: 修改问题
