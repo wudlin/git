@@ -11,6 +11,7 @@
 - [其他命令](#其他命令)
 - [修饰符](#修饰符)
 - [对比 svn 流程整合](#对比-svn-流程整合)
+- [提交规范说明](#提交规范说明)
 - [git回滚流程](#git回滚流程)
 #### 其他
 - [husky使用教程](./husky.md)
@@ -266,13 +267,21 @@
 
 <img src="./img/git对比svn.jpg?width=890">
 
+## 提交规范说明
+
 >Note:参考angular社区流行的 `commit` 提交规范，未整理完成
-- [Build]
-- [docs]
-- [Fix]
-- [new]
-- [Chore]
-- [upgrade]
+type: commit 的类型
+feat: 新特性
+fix: 修改问题
+refactor: 代码重构
+docs: 文档修改
+style: 代码格式修改, 注意不是 css 修改
+test: 测试用例修改
+chore: 其他修改, 比如构建流程, 依赖管理
+scope: commit 影响的范围, 比如: route, component, utils, build...
+subject: commit 的概述, 建议符合
+body: commit 具体修改内容, 可以分为多行
+footer: 一些备注, 通常是 BREAKING CHANGE 或修复的 bug 的链接
 
 
 ## git回滚流程
