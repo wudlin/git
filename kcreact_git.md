@@ -34,7 +34,7 @@ kcreact commit <name>
 - 步骤三：修改package的版本号判断是否成功
 - 步骤四：创建文件是否成功
 - 步骤五：执行git提交
->Note:若存在远程仓库有文件未拉取，则自动拉取文件，无法确认是否有冲突则停止脚本
+>Note:若存在远程仓库有文件未拉取，则自动拉取文件，待用户修改完成，手动进行git commit 及 push 操作
 
 <img src="./img/kcreact目录结构.png?width=890">
 
