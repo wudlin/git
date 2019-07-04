@@ -1,6 +1,6 @@
 <h1 align="center">kcreact工具文档使用说明</h1>
 
->Note:git相关内容使用说明，保证使用前，先全局安装k-kcreact-cli
+>Note:git相关内容使用说明，先保证使用前，全局安装k-kcreact-cli
 ```
 npm i k-kcreact-cli -g
 ```
@@ -8,6 +8,7 @@ npm i k-kcreact-cli -g
 ## 拉取单个组件命令
 
 #### kcreact pull
+执行流程
 - 步骤一：在cmd窗口执行命令
 
 ```js
@@ -27,7 +28,7 @@ kcreact pull
 ```js
 kcreact commit <name>
 ```
-
+执行流程
 - 步骤一：匹配执行目录是否在code下级
 - 步骤二：获取版本号并检查package的版本号
 - 步骤三：修改package的版本号判断是否成功
